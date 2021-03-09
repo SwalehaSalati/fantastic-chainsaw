@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2010-11-19T16:44:26.296">
+<file name="src/com/mindtree/dao/CarDao.java">
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.dao" class="CarDao" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.dao" class="CarDao" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/mindtree/dao/DaoFactory.java">
+<violation beginline="7" endline="42" begincolumn="0" endcolumn="0" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ClassWithOnlyPrivateConstructorsShouldBeFinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'carDao' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'rentalDao' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="13" endline="14" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'resource' could be declared final
+</violation>
+<violation beginline="35" endline="39" begincolumn="0" endcolumn="0" rule="NonThreadSafeSingleton" ruleset="Design Rules" package="com.mindtree.dao" class="DaoFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#NonThreadSafeSingleton" priority="3">
+Singleton is not thread safe
+</violation>
+</file>
+<file name="src/com/mindtree/dao/RentalDao.java">
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.dao" class="RentalDao" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.dao" class="RentalDao" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.dao" class="RentalDao" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.dao" class="RentalDao" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/mindtree/dao/jdbcImpl/BaseDao.java">
+<violation beginline="4" endline="4" begincolumn="0" endcolumn="0" rule="PackageCase" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="21" endline="68" begincolumn="0" endcolumn="0" rule="AbstractNaming" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#AbstractNaming" priority="3">
+Abstract classes should be named AbstractXXX
+</violation>
+<violation beginline="21" endline="68" begincolumn="0" endcolumn="0" rule="AbstractClassWithoutAbstractMethod" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#AbstractClassWithoutAbstractMethod" priority="3">
+This abstract class does not have any abstract methods
+</violation>
+<violation beginline="28" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'resource' could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'con' is not assigned and could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="BaseDao" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'stmt' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java">
+<violation beginline="1" endline="1" begincolumn="0" endcolumn="0" rule="PackageCase" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'car' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="25" endline="26" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '25'-'26').
+</violation>
+<violation beginline="27" endline="29" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'psmt' (lines '27'-'29').
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'con' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'sql' could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Statement object are closed after use
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'stmt' could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rs
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rs' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="57" endline="58" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '57'-'58').
+</violation>
+<violation beginline="59" endline="62" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'psmt' (lines '59'-'62').
+</violation>
+<violation beginline="60" endline="78" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'categoryList' (lines '60'-'78').
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'categoryList' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rs
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="63" endline="63" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rs' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="CarDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java">
+<violation beginline="1" endline="1" begincolumn="0" endcolumn="0" rule="PackageCase" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#PackageCase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.mindtree.model.Category'
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="UnusedImports" ruleset="Type Resolution Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/typeresolution.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.mindtree.model.Category'
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="26" endline="27" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '26'-'27').
+</violation>
+<violation beginline="28" endline="31" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'psmt' (lines '28'-'31').
+</violation>
+<violation beginline="29" endline="45" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'carList' (lines '29'-'45').
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'carList' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rs
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rs' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'car' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this Connection object are closed after use
+</violation>
+<violation beginline="49" endline="50" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'con' (lines '49'-'50').
+</violation>
+<violation beginline="51" endline="54" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'psmt' (lines '51'-'54').
+</violation>
+<violation beginline="52" endline="68" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'customerList' (lines '52'-'68').
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'customerList' could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rs
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="CloseResource" ruleset="Design Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+<violation beginline="55" endline="55" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rs' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'car' is not assigned and could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.dao.jdbcImpl" class="RentalDaoJdbcImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rental' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/mindtree/exception/ApplicationException.java">
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ApplicationException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ApplicationException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg1' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ApplicationException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ApplicationException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/mindtree/exception/DaoException.java">
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="DaoException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="DaoException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg1' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="DaoException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="DaoException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/mindtree/exception/ServiceException.java">
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ServiceException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ServiceException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg1' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ServiceException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.exception" class="ServiceException" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arg0' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/com/mindtree/model/Car.java">
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'carId' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'registrationNo' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'mileage' is not assigned and could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'category' is not assigned and could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="AvoidFinalLocalVariable" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AvoidFinalLocalVariable" priority="3">
+Avoid using final local variables, turn them into fields
+</violation>
+<violation beginline="73" endline="74" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '73'-'74').
+</violation>
+<violation beginline="86" endline="86" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="87" endline="88" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="89" endline="90" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="91" endline="92" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'other' could be declared final
+</violation>
+<violation beginline="94" endline="95" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="96" endline="98" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="98" endline="98" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Car" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="src/com/mindtree/model/Category.java">
+<violation beginline="5" endline="119" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Category' has a Cyclomatic Complexity of 2 (Highest = 12).
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'categoryId' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'description' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'costPerKm' is not assigned and could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="0" endcolumn="0" rule="AvoidFinalLocalVariable" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AvoidFinalLocalVariable" priority="3">
+Avoid using final local variables, turn them into fields
+</violation>
+<violation beginline="69" endline="70" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '69'-'70').
+</violation>
+<violation beginline="83" endline="83" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="83" endline="107" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'equals' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="83" endline="107" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method equals() has an NPath complexity of 512
+</violation>
+<violation beginline="84" endline="85" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="85" endline="85" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="86" endline="87" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="88" endline="89" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="89" endline="89" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'other' could be declared final
+</violation>
+<violation beginline="91" endline="92" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="93" endline="95" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Category" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="src/com/mindtree/model/Customer.java">
+<violation beginline="12" endline="107" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Customer' has a Cyclomatic Complexity of 2 (Highest = 11).
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'userName' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'password' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="AvoidFinalLocalVariable" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AvoidFinalLocalVariable" priority="3">
+Avoid using final local variables, turn them into fields
+</violation>
+<violation beginline="71" endline="72" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '71'-'72').
+</violation>
+<violation beginline="83" endline="83" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'obj' is not assigned and could be declared final
+</violation>
+<violation beginline="83" endline="104" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'equals' has a Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="83" endline="104" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method equals() has an NPath complexity of 256
+</violation>
+<violation beginline="84" endline="85" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="85" endline="85" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="86" endline="87" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="87" endline="87" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="88" endline="89" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="89" endline="89" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'other' could be declared final
+</violation>
+<violation beginline="91" endline="92" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="94" endline="95" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="95" endline="95" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Customer" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="src/com/mindtree/model/Rental.java">
+<violation beginline="13" endline="153" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Rental' has a Cyclomatic Complexity of 2 (Highest = 12).
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rentalId' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'customer' is not assigned and could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'car' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'hireDate' is not assigned and could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'returnDate' is not assigned and could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="0" endcolumn="0" rule="AvoidFinalLocalVariable" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#AvoidFinalLocalVariable" priority="3">
+Avoid using final local variables, turn them into fields
+</violation>
+<violation beginline="103" endline="104" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '103'-'104').
+</violation>
+<violation beginline="118" endline="142" begincolumn="0" endcolumn="0" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#CyclomaticComplexity" priority="3">
+The method 'equals' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="118" endline="142" begincolumn="0" endcolumn="0" rule="NPathComplexity" ruleset="Code Size Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/codesize.html#NPathComplexity" priority="3">
+The method equals() has an NPath complexity of 512
+</violation>
+<violation beginline="119" endline="120" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="120" endline="120" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="121" endline="122" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="122" endline="122" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="123" endline="124" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="124" endline="124" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="125" endline="125" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'other' could be declared final
+</violation>
+<violation beginline="127" endline="128" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="128" endline="128" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="129" endline="130" begincolumn="0" endcolumn="0" rule="IfStmtsMustUseBraces" ruleset="Braces Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="130" endline="130" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="com.mindtree.model" class="Rental" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="src/com/mindtree/service/RentalService.java">
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.service" class="RentalService" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.service" class="RentalService" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.service" class="RentalService" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.service" class="RentalService" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="UnusedModifier" ruleset="Controversial Rules" package="com.mindtree.service" class="RentalService" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="src/com/mindtree/service/RentalServiceImpl.java">
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'car' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'carDao' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;Rental Service not Available&quot; appears 8 times in this file; the first occurrence is on line 34
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'carDao' could be declared final
+</violation>
+<violation beginline="61" endline="61" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'car' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rental' is not assigned and could be declared final
+</violation>
+<violation beginline="78" endline="78" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rentalDao' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.service" class="RentalServiceImpl" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rentalDao' could be declared final
+</violation>
+</file>
+<file name="src/com/mindtree/util/DateUtil.java">
+<violation beginline="9" endline="20" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="com.mindtree.util" class="DateUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.util" class="DateUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'strDate' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.util" class="DateUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'sdf' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="SimpleDateFormatNeedsLocale" ruleset="Design Rules" package="com.mindtree.util" class="DateUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#SimpleDateFormatNeedsLocale" priority="3">
+When instantiating a SimpleDateFormat object, specify a Locale
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="PreserveStackTrace" ruleset="Design Rules" package="com.mindtree.util" class="DateUtil" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#PreserveStackTrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="src/com/mindtree/web/FrontController.java">
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'response' is not assigned and could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'request' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'uri' could be declared final
+</violation>
+<violation beginline="39" endline="45" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'target' (lines '39'-'45').
+</violation>
+<violation beginline="39" endline="57" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'target' (lines '39'-'57').
+</violation>
+<violation beginline="39" endline="69" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'target' (lines '39'-'69').
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;index.jsp&quot; appears 5 times in this file; the first occurrence is on line 39
+</violation>
+<violation beginline="40" endline="78" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'rentalService' (lines '40'-'78').
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rentalService' could be declared final
+</violation>
+<violation beginline="45" endline="49" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'target' (lines '45'-'49').
+</violation>
+<violation beginline="47" endline="47" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="48" endline="48" begincolumn="0" endcolumn="0" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;msg&quot; appears 4 times in this file; the first occurrence is on line 48
+</violation>
+<violation beginline="57" endline="61" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'target' (lines '57'-'61').
+</violation>
+<violation beginline="59" endline="59" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="64" endline="64" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'car' could be declared final
+</violation>
+<violation beginline="69" endline="73" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'target' (lines '69'-'73').
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="AvoidPrintStackTrace" ruleset="Java Logging Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="76" endline="76" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dispatcher' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="com.mindtree.web" class="FrontController" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'category' could be declared final
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,225 @@
+<html><head><title>PMD</title></head><style type="text/css"><!--
+body { background-color: white; font-family:verdana, arial, helvetica, geneva; font-size: 16px; font-style: italic; color: black; }
+.title { font-family: verdana, arial, helvetica,geneva; font-size: 12px; font-weight:bold; color: white; }
+.body { font-family: verdana, arial, helvetica, geneva; font-size: 12px; font-weight:plain; color: black; }
+#TableHeader { background-color: #003366; }
+#RowColor1 { background-color: #eeeeee; }
+#RowColor2 { background-color: white; }
+--></style><body><center><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/dao/CarDao.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>10&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>11&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/dao/DaoFactory.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A class which only has private constructors should be final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>9&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>9&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'carDao' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>10&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>10&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'rentalDao' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'resource' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Singleton is not thread safe</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/dao/RentalDao.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>11&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>12&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/dao/jdbcImpl/BaseDao.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>4&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Package name contains upper case characters</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Abstract classes should be named AbstractXXX</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>This abstract class does not have any abstract methods</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'resource' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>50&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'con' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>50&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'stmt' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Package name contains upper case characters</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'car' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>25&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '25'-'26').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'psmt' (lines '27'-'29').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'con' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'sql' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Statement object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'stmt' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rs' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>50&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '57'-'58').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>59&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'psmt' (lines '59'-'62').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>60&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'categoryList' (lines '60'-'78').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>60&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'categoryList' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>63&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>63&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>63&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rs' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>65&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid instantiating new objects inside loops</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Package name contains upper case characters</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'com.mindtree.model.Category'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'com.mindtree.model.Category'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '26'-'27').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'psmt' (lines '28'-'31').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'carList' (lines '29'-'45').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'carList' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rs' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid instantiating new objects inside loops</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'car' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'con' (lines '49'-'50').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>51&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'psmt' (lines '51'-'54').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'customerList' (lines '52'-'68').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'customerList' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rs' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid instantiating new objects inside loops</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>71&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'car' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>77&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'rental' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/exception/ApplicationException.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg1' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/exception/DaoException.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg1' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/exception/ServiceException.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg1' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>27&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/model/Car.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'carId' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>40&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'registrationNo' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'mileage' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>64&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'category' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>72&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using final local variables, turn them into fields</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>73&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '73'-'74').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>86&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'obj' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>87&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>88&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>89&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>90&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>93&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'other' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>94&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>95&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>96&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>98&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/model/Category.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>5&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The class 'Category' has a Cyclomatic Complexity of 2 (Highest = 12).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>24&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'categoryId' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'name' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'description' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>60&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'costPerKm' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>68&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using final local variables, turn them into fields</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>69&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '69'-'70').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'obj' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method 'equals' has a Cyclomatic Complexity of 12.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method equals() has an NPath complexity of 512</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>84&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>85&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>86&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>87&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>88&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>89&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>90&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'other' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>93&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>95&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/model/Customer.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>12&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The class 'Customer' has a Cyclomatic Complexity of 2 (Highest = 11).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like id</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'id' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>42&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'userName' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'password' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using final local variables, turn them into fields</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>71&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '71'-'72').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'obj' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method 'equals' has a Cyclomatic Complexity of 11.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>83&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method equals() has an NPath complexity of 256</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>84&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>85&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>86&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>87&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>88&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>89&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>90&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'other' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>94&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>95&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/model/Rental.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The class 'Rental' has a Cyclomatic Complexity of 2 (Highest = 12).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'rentalId' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'customer' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>58&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'car' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'hireDate' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>82&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'returnDate' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>102&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using final local variables, turn them into fields</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'result' (lines '103'-'104').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>118&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method 'equals' has a Cyclomatic Complexity of 12.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>118&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The method equals() has an NPath complexity of 512</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>119&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>120&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>121&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>122&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>123&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>124&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>125&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'other' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>127&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>128&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>129&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid using if statements without curly braces</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>130&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/service/RentalService.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>12&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>13&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>14&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>15&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid modifiers which are implied by the context</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/service/RentalServiceImpl.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'car' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'carDao' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The String literal "Rental Service not Available" appears 8 times in this file; the first occurrence is on line 34</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'carDao' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>61&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'car' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>70&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'rental' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>78&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rentalDao' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>91&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rentalDao' could be declared final</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/util/DateUtil.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>9&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>11&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'strDate' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>12&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'sdf' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>12&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>When instantiating a SimpleDateFormat object, specify a Locale</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>New exception is thrown in catch block, original stack trace may be lost</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/com/mindtree/web/FrontController.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'response' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>37&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'request' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'uri' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>39&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'target' (lines '39'-'45').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>39&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'target' (lines '39'-'57').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>39&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'target' (lines '39'-'69').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>39&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The String literal "index.jsp" appears 5 times in this file; the first occurrence is on line 39</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>40&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DU'-anomaly for variable 'rentalService' (lines '40'-'78').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>40&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rentalService' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'target' (lines '45'-'49').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>47&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>48&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The String literal "msg" appears 4 times in this file; the first occurrence is on line 48</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'target' (lines '57'-'61').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>59&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>64&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'car' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>69&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'target' (lines '69'-'73').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>71&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>76&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'dispatcher' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>81&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'category' could be declared final</font></td></tr>
+</table><br></center></body></html>

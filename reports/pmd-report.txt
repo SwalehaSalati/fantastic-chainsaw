@@ -1,0 +1,201 @@
+
+src/com/mindtree/dao/CarDao.java:10	Avoid modifiers which are implied by the context
+src/com/mindtree/dao/CarDao.java:11	Avoid modifiers which are implied by the context
+src/com/mindtree/dao/DaoFactory.java:7	A class which only has private constructors should be final
+src/com/mindtree/dao/DaoFactory.java:9	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/mindtree/dao/DaoFactory.java:9	Private field 'carDao' could be made final; it is only initialized in the declaration or constructor.
+src/com/mindtree/dao/DaoFactory.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/mindtree/dao/DaoFactory.java:10	Private field 'rentalDao' could be made final; it is only initialized in the declaration or constructor.
+src/com/mindtree/dao/DaoFactory.java:13	Local variable 'resource' could be declared final
+src/com/mindtree/dao/DaoFactory.java:35	Singleton is not thread safe
+src/com/mindtree/dao/RentalDao.java:11	Avoid modifiers which are implied by the context
+src/com/mindtree/dao/RentalDao.java:12	Avoid modifiers which are implied by the context
+src/com/mindtree/dao/RentalDao.java:13	Avoid modifiers which are implied by the context
+src/com/mindtree/dao/RentalDao.java:14	Avoid modifiers which are implied by the context
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:4	Package name contains upper case characters
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:21	Abstract classes should be named AbstractXXX
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:21	This abstract class does not have any abstract methods
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:28	Local variable 'resource' could be declared final
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:38	Avoid printStackTrace(); use a logger call instead.
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:50	Parameter 'con' is not assigned and could be declared final
+src/com/mindtree/dao/jdbcImpl/BaseDao.java:50	Parameter 'stmt' is not assigned and could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:1	Package name contains upper case characters
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:24	Parameter 'car' is not assigned and could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:25	Ensure that resources like this Connection object are closed after use
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:25	Found 'DD'-anomaly for variable 'con' (lines '25'-'26').
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:27	Found 'DD'-anomaly for variable 'psmt' (lines '27'-'29').
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:45	Parameter 'con' is not assigned and could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:46	Local variable 'sql' could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:47	Ensure that resources like this Statement object are closed after use
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:47	Local variable 'stmt' could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:48	Avoid variables with short names like rs
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:48	Ensure that resources like this ResultSet object are closed after use
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:48	Local variable 'rs' could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:50	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:57	Ensure that resources like this Connection object are closed after use
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:57	Found 'DD'-anomaly for variable 'con' (lines '57'-'58').
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:59	Found 'DD'-anomaly for variable 'psmt' (lines '59'-'62').
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:60	Found 'DU'-anomaly for variable 'categoryList' (lines '60'-'78').
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:60	Local variable 'categoryList' could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:63	Avoid variables with short names like rs
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:63	Ensure that resources like this ResultSet object are closed after use
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:63	Local variable 'rs' could be declared final
+src/com/mindtree/dao/jdbcImpl/CarDaoJdbcImpl.java:65	Avoid instantiating new objects inside loops
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:1	Package name contains upper case characters
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:13	Avoid unused imports such as 'com.mindtree.model.Category'
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:13	Avoid unused imports such as 'com.mindtree.model.Category'
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:26	Ensure that resources like this Connection object are closed after use
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:26	Found 'DD'-anomaly for variable 'con' (lines '26'-'27').
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:28	Found 'DD'-anomaly for variable 'psmt' (lines '28'-'31').
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:29	Found 'DU'-anomaly for variable 'carList' (lines '29'-'45').
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:29	Local variable 'carList' could be declared final
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:32	Avoid variables with short names like rs
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:32	Ensure that resources like this ResultSet object are closed after use
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:32	Local variable 'rs' could be declared final
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:34	Avoid instantiating new objects inside loops
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:34	Local variable 'car' could be declared final
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:49	Ensure that resources like this Connection object are closed after use
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:49	Found 'DD'-anomaly for variable 'con' (lines '49'-'50').
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:51	Found 'DD'-anomaly for variable 'psmt' (lines '51'-'54').
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:52	Found 'DU'-anomaly for variable 'customerList' (lines '52'-'68').
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:52	Local variable 'customerList' could be declared final
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:55	Avoid variables with short names like rs
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:55	Ensure that resources like this ResultSet object are closed after use
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:55	Local variable 'rs' could be declared final
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:57	Avoid instantiating new objects inside loops
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:71	Parameter 'car' is not assigned and could be declared final
+src/com/mindtree/dao/jdbcImpl/RentalDaoJdbcImpl.java:77	Parameter 'rental' is not assigned and could be declared final
+src/com/mindtree/exception/ApplicationException.java:22	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/ApplicationException.java:22	Parameter 'arg1' is not assigned and could be declared final
+src/com/mindtree/exception/ApplicationException.java:27	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/ApplicationException.java:32	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/DaoException.java:22	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/DaoException.java:22	Parameter 'arg1' is not assigned and could be declared final
+src/com/mindtree/exception/DaoException.java:27	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/DaoException.java:32	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/ServiceException.java:22	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/ServiceException.java:22	Parameter 'arg1' is not assigned and could be declared final
+src/com/mindtree/exception/ServiceException.java:27	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/exception/ServiceException.java:32	Parameter 'arg0' is not assigned and could be declared final
+src/com/mindtree/model/Car.java:28	Parameter 'carId' is not assigned and could be declared final
+src/com/mindtree/model/Car.java:40	Parameter 'registrationNo' is not assigned and could be declared final
+src/com/mindtree/model/Car.java:52	Parameter 'mileage' is not assigned and could be declared final
+src/com/mindtree/model/Car.java:64	Parameter 'category' is not assigned and could be declared final
+src/com/mindtree/model/Car.java:72	Avoid using final local variables, turn them into fields
+src/com/mindtree/model/Car.java:73	Found 'DD'-anomaly for variable 'result' (lines '73'-'74').
+src/com/mindtree/model/Car.java:86	Parameter 'obj' is not assigned and could be declared final
+src/com/mindtree/model/Car.java:87	Avoid using if statements without curly braces
+src/com/mindtree/model/Car.java:88	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Car.java:89	Avoid using if statements without curly braces
+src/com/mindtree/model/Car.java:90	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Car.java:91	Avoid using if statements without curly braces
+src/com/mindtree/model/Car.java:92	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Car.java:93	Local variable 'other' could be declared final
+src/com/mindtree/model/Car.java:94	Avoid using if statements without curly braces
+src/com/mindtree/model/Car.java:95	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Car.java:96	Avoid using if statements without curly braces
+src/com/mindtree/model/Car.java:98	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Category.java:5	The class 'Category' has a Cyclomatic Complexity of 2 (Highest = 12).
+src/com/mindtree/model/Category.java:24	Parameter 'categoryId' is not assigned and could be declared final
+src/com/mindtree/model/Category.java:36	Parameter 'name' is not assigned and could be declared final
+src/com/mindtree/model/Category.java:48	Parameter 'description' is not assigned and could be declared final
+src/com/mindtree/model/Category.java:60	Parameter 'costPerKm' is not assigned and could be declared final
+src/com/mindtree/model/Category.java:68	Avoid using final local variables, turn them into fields
+src/com/mindtree/model/Category.java:69	Found 'DD'-anomaly for variable 'result' (lines '69'-'70').
+src/com/mindtree/model/Category.java:83	Parameter 'obj' is not assigned and could be declared final
+src/com/mindtree/model/Category.java:83	The method 'equals' has a Cyclomatic Complexity of 12.
+src/com/mindtree/model/Category.java:83	The method equals() has an NPath complexity of 512
+src/com/mindtree/model/Category.java:84	Avoid using if statements without curly braces
+src/com/mindtree/model/Category.java:85	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Category.java:86	Avoid using if statements without curly braces
+src/com/mindtree/model/Category.java:87	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Category.java:88	Avoid using if statements without curly braces
+src/com/mindtree/model/Category.java:89	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Category.java:90	Local variable 'other' could be declared final
+src/com/mindtree/model/Category.java:91	Avoid using if statements without curly braces
+src/com/mindtree/model/Category.java:92	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Category.java:93	Avoid using if statements without curly braces
+src/com/mindtree/model/Category.java:95	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Customer.java:12	The class 'Customer' has a Cyclomatic Complexity of 2 (Highest = 11).
+src/com/mindtree/model/Customer.java:18	Avoid variables with short names like id
+src/com/mindtree/model/Customer.java:30	Avoid variables with short names like id
+src/com/mindtree/model/Customer.java:30	Parameter 'id' is not assigned and could be declared final
+src/com/mindtree/model/Customer.java:42	Parameter 'userName' is not assigned and could be declared final
+src/com/mindtree/model/Customer.java:54	Parameter 'password' is not assigned and could be declared final
+src/com/mindtree/model/Customer.java:70	Avoid using final local variables, turn them into fields
+src/com/mindtree/model/Customer.java:71	Found 'DD'-anomaly for variable 'result' (lines '71'-'72').
+src/com/mindtree/model/Customer.java:83	Parameter 'obj' is not assigned and could be declared final
+src/com/mindtree/model/Customer.java:83	The method 'equals' has a Cyclomatic Complexity of 11.
+src/com/mindtree/model/Customer.java:83	The method equals() has an NPath complexity of 256
+src/com/mindtree/model/Customer.java:84	Avoid using if statements without curly braces
+src/com/mindtree/model/Customer.java:85	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Customer.java:86	Avoid using if statements without curly braces
+src/com/mindtree/model/Customer.java:87	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Customer.java:88	Avoid using if statements without curly braces
+src/com/mindtree/model/Customer.java:89	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Customer.java:90	Local variable 'other' could be declared final
+src/com/mindtree/model/Customer.java:91	Avoid using if statements without curly braces
+src/com/mindtree/model/Customer.java:92	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Customer.java:94	Avoid using if statements without curly braces
+src/com/mindtree/model/Customer.java:95	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Rental.java:13	The class 'Rental' has a Cyclomatic Complexity of 2 (Highest = 12).
+src/com/mindtree/model/Rental.java:34	Parameter 'rentalId' is not assigned and could be declared final
+src/com/mindtree/model/Rental.java:46	Parameter 'customer' is not assigned and could be declared final
+src/com/mindtree/model/Rental.java:58	Parameter 'car' is not assigned and could be declared final
+src/com/mindtree/model/Rental.java:70	Parameter 'hireDate' is not assigned and could be declared final
+src/com/mindtree/model/Rental.java:82	Parameter 'returnDate' is not assigned and could be declared final
+src/com/mindtree/model/Rental.java:102	Avoid using final local variables, turn them into fields
+src/com/mindtree/model/Rental.java:103	Found 'DD'-anomaly for variable 'result' (lines '103'-'104').
+src/com/mindtree/model/Rental.java:118	The method 'equals' has a Cyclomatic Complexity of 12.
+src/com/mindtree/model/Rental.java:118	The method equals() has an NPath complexity of 512
+src/com/mindtree/model/Rental.java:119	Avoid using if statements without curly braces
+src/com/mindtree/model/Rental.java:120	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Rental.java:121	Avoid using if statements without curly braces
+src/com/mindtree/model/Rental.java:122	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Rental.java:123	Avoid using if statements without curly braces
+src/com/mindtree/model/Rental.java:124	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Rental.java:125	Local variable 'other' could be declared final
+src/com/mindtree/model/Rental.java:127	Avoid using if statements without curly braces
+src/com/mindtree/model/Rental.java:128	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/model/Rental.java:129	Avoid using if statements without curly braces
+src/com/mindtree/model/Rental.java:130	A method should have only one exit point, and that should be the last statement in the method
+src/com/mindtree/service/RentalService.java:12	Avoid modifiers which are implied by the context
+src/com/mindtree/service/RentalService.java:13	Avoid modifiers which are implied by the context
+src/com/mindtree/service/RentalService.java:14	Avoid modifiers which are implied by the context
+src/com/mindtree/service/RentalService.java:15	Avoid modifiers which are implied by the context
+src/com/mindtree/service/RentalService.java:17	Avoid modifiers which are implied by the context
+src/com/mindtree/service/RentalServiceImpl.java:29	Parameter 'car' is not assigned and could be declared final
+src/com/mindtree/service/RentalServiceImpl.java:31	Local variable 'carDao' could be declared final
+src/com/mindtree/service/RentalServiceImpl.java:34	The String literal "Rental Service not Available" appears 8 times in this file; the first occurrence is on line 34
+src/com/mindtree/service/RentalServiceImpl.java:47	Local variable 'carDao' could be declared final
+src/com/mindtree/service/RentalServiceImpl.java:61	Parameter 'car' is not assigned and could be declared final
+src/com/mindtree/service/RentalServiceImpl.java:70	Parameter 'rental' is not assigned and could be declared final
+src/com/mindtree/service/RentalServiceImpl.java:78	Local variable 'rentalDao' could be declared final
+src/com/mindtree/service/RentalServiceImpl.java:91	Local variable 'rentalDao' could be declared final
+src/com/mindtree/util/DateUtil.java:9	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/mindtree/util/DateUtil.java:11	Parameter 'strDate' is not assigned and could be declared final
+src/com/mindtree/util/DateUtil.java:12	Local variable 'sdf' could be declared final
+src/com/mindtree/util/DateUtil.java:12	When instantiating a SimpleDateFormat object, specify a Locale
+src/com/mindtree/util/DateUtil.java:16	New exception is thrown in catch block, original stack trace may be lost
+src/com/mindtree/web/FrontController.java:26	Parameter 'request' is not assigned and could be declared final
+src/com/mindtree/web/FrontController.java:26	Parameter 'response' is not assigned and could be declared final
+src/com/mindtree/web/FrontController.java:33	Parameter 'request' is not assigned and could be declared final
+src/com/mindtree/web/FrontController.java:33	Parameter 'response' is not assigned and could be declared final
+src/com/mindtree/web/FrontController.java:37	Parameter 'request' is not assigned and could be declared final
+src/com/mindtree/web/FrontController.java:38	Local variable 'uri' could be declared final
+src/com/mindtree/web/FrontController.java:39	Found 'DD'-anomaly for variable 'target' (lines '39'-'45').
+src/com/mindtree/web/FrontController.java:39	Found 'DD'-anomaly for variable 'target' (lines '39'-'57').
+src/com/mindtree/web/FrontController.java:39	Found 'DD'-anomaly for variable 'target' (lines '39'-'69').
+src/com/mindtree/web/FrontController.java:39	The String literal "index.jsp" appears 5 times in this file; the first occurrence is on line 39
+src/com/mindtree/web/FrontController.java:40	Found 'DU'-anomaly for variable 'rentalService' (lines '40'-'78').
+src/com/mindtree/web/FrontController.java:40	Local variable 'rentalService' could be declared final
+src/com/mindtree/web/FrontController.java:45	Found 'DD'-anomaly for variable 'target' (lines '45'-'49').
+src/com/mindtree/web/FrontController.java:47	Avoid printStackTrace(); use a logger call instead.
+src/com/mindtree/web/FrontController.java:48	The String literal "msg" appears 4 times in this file; the first occurrence is on line 48
+src/com/mindtree/web/FrontController.java:57	Found 'DD'-anomaly for variable 'target' (lines '57'-'61').
+src/com/mindtree/web/FrontController.java:59	Avoid printStackTrace(); use a logger call instead.
+src/com/mindtree/web/FrontController.java:64	Local variable 'car' could be declared final
+src/com/mindtree/web/FrontController.java:69	Found 'DD'-anomaly for variable 'target' (lines '69'-'73').
+src/com/mindtree/web/FrontController.java:71	Avoid printStackTrace(); use a logger call instead.
+src/com/mindtree/web/FrontController.java:76	Local variable 'dispatcher' could be declared final
+src/com/mindtree/web/FrontController.java:81	Local variable 'category' could be declared final

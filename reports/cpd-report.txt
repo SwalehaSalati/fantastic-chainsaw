@@ -1,0 +1,117 @@
+Found a 14 line (48 tokens) duplication in the following files: 
+Starting at line 76 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Customer.java
+Starting at line 76 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Category.java
+Starting at line 79 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Car.java
+
+				+ ((registrationNo == null) ? 0 : registrationNo.hashCode());
+		return result;
+	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+=====================================================================
+Found a 14 line (45 tokens) duplication in the following files: 
+Starting at line 111 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Rental.java
+Starting at line 76 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Customer.java
+
+				+ ((userName == null) ? 0 : userName.hashCode());
+		return result;
+	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+=====================================================================
+Found a 11 line (39 tokens) duplication in the following files: 
+Starting at line 48 of C:\JavaMCE\CarRentalApp\src\com\mindtree\service\RentalServiceImpl.java
+Starting at line 79 of C:\JavaMCE\CarRentalApp\src\com\mindtree\service\RentalServiceImpl.java
+
+			return rentalDao.getAllCars();
+		} catch (DaoException e) {
+	 		 throw new ServiceException("Rental Service not Available", e);
+		}
+		catch (ApplicationException e) {
+			throw new ServiceException("Rental Service not Available", e);
+		}
+	}
+
+	@Override
+	public List<Customer> getCustomers() throws ServiceException {
+=====================================================================
+Found a 14 line (38 tokens) duplication in the following files: 
+Starting at line 32 of C:\JavaMCE\CarRentalApp\src\com\mindtree\service\RentalServiceImpl.java
+Starting at line 48 of C:\JavaMCE\CarRentalApp\src\com\mindtree\service\RentalServiceImpl.java
+
+			return carDao.getCategories();
+		} catch (DaoException e) {
+	 		 throw new ServiceException("Rental Service not Available", e);
+		}
+		catch (ApplicationException e) {
+			throw new ServiceException("Rental Service not Available", e);
+		}
+	}
+
+	/* (non-Javadoc)
+	 * @see com.mindtree.service.RentalService#getRental(com.mindtree.model.Car)
+	 */
+	@Override
+	public List<Rental> getRental(Car car) throws ServiceException {
+=====================================================================
+Found a 6 line (36 tokens) duplication in the following files: 
+Starting at line 46 of C:\JavaMCE\CarRentalApp\src\com\mindtree\web\FrontController.java
+Starting at line 58 of C:\JavaMCE\CarRentalApp\src\com\mindtree\web\FrontController.java
+
+				} catch (ServiceException e) {
+					e.printStackTrace();
+					 request.setAttribute("msg", e.getMessage());
+					 target = "index.jsp";
+				}
+		 } else if( uri.endsWith("addCar.do")){
+=====================================================================
+Found a 8 line (34 tokens) duplication in the following files: 
+Starting at line 48 of C:\JavaMCE\CarRentalApp\src\com\mindtree\service\RentalServiceImpl.java
+Starting at line 92 of C:\JavaMCE\CarRentalApp\src\com\mindtree\service\RentalServiceImpl.java
+
+			return rentalDao.getAllCustomers();
+		} catch (DaoException e) {
+	 		 throw new ServiceException("Rental Service not Available", e);
+		}
+		catch (ApplicationException e) {
+			throw new ServiceException("Rental Service not Available", e);
+		}
+	}
+=====================================================================
+Found a 4 line (29 tokens) duplication in the following files: 
+Starting at line 72 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Category.java
+Starting at line 76 of C:\JavaMCE\CarRentalApp\src\com\mindtree\model\Car.java
+
+		temp = Double.doubleToLongBits(mileage);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result
+				+ ((registrationNo == null) ? 0 : registrationNo.hashCode());
+=====================================================================
+Found a 6 line (29 tokens) duplication in the following files: 
+Starting at line 46 of C:\JavaMCE\CarRentalApp\src\com\mindtree\web\FrontController.java
+Starting at line 70 of C:\JavaMCE\CarRentalApp\src\com\mindtree\web\FrontController.java
+
+			} catch (ServiceException e) {
+			 	e.printStackTrace();
+			 	 request.setAttribute("msg", e.getMessage());
+				 target = "index.jsp";
+			}
+		 }
